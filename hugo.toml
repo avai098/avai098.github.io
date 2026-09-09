@@ -1,0 +1,57 @@
+baseURL = 'https://avai098.github.io/'
+locale = 'zh-cn'
+title = 'avai098'
+theme = 'PaperMod'
+
+[params]
+  description = "记录技术与生活的极客空间" # 网站的简介
+  author = "你的名字"
+  
+  # 开启现代感十足的功能（以火爆的 PaperMod 主题为例）
+  defaultTheme = "auto"           # 自动根据系统切换“白天/暗黑模式”
+  showCodeCopyButtons = true      # 鼠标移到代码块上时，自动显示“一键复制”按钮
+  ShowReadingTime = true          # 在文章顶部显示“预计阅读时间”
+  showWordCount = true
+  ShowToc = true
+  tocOpen =false
+
+  [params.profileMode]
+  enabled =true
+  title = "avai098"
+  subtitle = "记录技术与生活的极客空间"
+  imageUrl = "/images/avatar.png"
+  imageWidth = 120
+  imageHeight =120
+  imageTitle = "good"
+
+  buttons= [
+    { name = "📚 学习笔记", url = "/posts" },
+    { name = "💻 项目展示", url = "/projects" }
+  ]
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "s36jjz@proton.me"
+
+[menu]
+  [[menu.main]]
+    name = '学习笔记'
+    url = '/posts/'
+    weight = 10
+
+  [[menu.main]]
+    name = '项目展示'
+    url = '/projects/'
+    weight = 20
+
+  [[menu.main]]
+    name = '关于 & 联系'
+    url = '/about/'
+    weight = 30
+ 
+
+
