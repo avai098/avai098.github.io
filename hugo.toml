@@ -4,9 +4,7 @@ title = 'avai098'
 theme = 'PaperMod'
 
 [params]
-  description = "记录技术与生活的极客空间" # 网站的简介
-  author = "你的名字"
-  
+
   # 开启现代感十足的功能（以火爆的 PaperMod 主题为例）
   defaultTheme = "auto"           # 自动根据系统切换“白天/暗黑模式”
   showCodeCopyButtons = true      # 鼠标移到代码块上时，自动显示“一键复制”按钮
