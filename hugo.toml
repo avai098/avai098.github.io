@@ -3,6 +3,9 @@ locale = 'zh-cn'
 title = 'avai098'
 theme = 'PaperMod'
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
 
   # 开启现代感十足的功能（以火爆的 PaperMod 主题为例）
@@ -36,6 +39,11 @@ theme = 'PaperMod'
     url = "s36jjz@proton.me"
 
 [menu]
+  [[menu.main]]
+    name = '搜索'
+    url = '/search/'
+    weight = 5
+    
   [[menu.main]]
     name = '学习笔记'
     url = '/posts/'
